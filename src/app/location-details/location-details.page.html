@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button > </ion-menu-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="onNewLocation()">
+        <ion-icon name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Location Details</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+  <ion-item>
+    <ion-label>Title:</ion-label>
+      <ion-label><strong>{{currentPlace.title}}</strong></ion-label>
+  </ion-item>
+  </ion-list>
+</ion-content>
+
